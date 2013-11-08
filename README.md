@@ -1,4 +1,4 @@
-### Did you know that Yahoo is hiring Node.js developers in their SF Office?
+### Did you know that Yahoo is hiring Node.js developers in their SF office?
 
 We're already using Node.js in production across a variety of high traffic sites. The new My Yahoo,
 Premier League Fantasy Football, and the recently launched Yahoo Screen, are
