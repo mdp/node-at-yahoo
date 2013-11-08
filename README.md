@@ -6,7 +6,7 @@ all running on Node. In fact in the next 12 months we're on track to easily
 be the largest server of traffic from Node in the world.
 
 We've also built an amazing infrastructure. We run the latest version of
-Node, host our own NPM registry, and work deploy seemlessly from a Github
+Node, host our own NPM registry, and deploy seemlessly from a Github
 pull request all the way to production. In fact, we deploy more than 400
 times a day, and run more than 360,000 tests.
 
