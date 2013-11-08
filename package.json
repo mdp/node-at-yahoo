@@ -1,0 +1,26 @@
+{
+  "name": "node-at-yahoo",
+  "version": "0.0.1",
+  "description": "Yahoo is hiring! Come help us build Yahoo on node!",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node index.js; node status.js",
+    "test": "node status.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdp/node-at-yahoo"
+  },
+  "keywords": [
+    "yahoo",
+    "hiring"
+  ],
+  "author": "Mark Percival <m@mdp.im> (@mdp)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdp/yahoo-is-hiring/issues"
+  },
+  "dependencies": {
+    "colors": "~0.6.2"
+  }
+}

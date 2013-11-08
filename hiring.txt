@@ -1,0 +1,7 @@
+Quick facts:
+1. Yahoo is already using Node.js in production
+2. In 12 months, we'll be the largest server of Node based traffic in the world
+3. We're opening a much larger office in SF in Square's former space.
+3. You really can write 100% JS at Yahoo
+
+Email me if you're interested - mdp@yahoo-inc.com
