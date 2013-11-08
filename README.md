@@ -2,7 +2,7 @@
 
 We're already using Node.js in production across a variety of high traffic sites. The new My Yahoo,
 Premier League Fantasy Football, and the recently launched Yahoo Screen, are
-all running on Node. In fact, in the next 12 months we're on track to easily
+all running on Node. In the next 12 months we're on track to easily
 become the largest originator of traffic from Node in the world.
 
 We've also built an amazing infrastructure. We run the latest version of
