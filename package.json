@@ -1,6 +1,6 @@
 {
   "name": "node-at-yahoo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Yahoo is hiring! Come help us build Yahoo on node!",
   "main": "index.js",
   "scripts": {
