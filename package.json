@@ -4,7 +4,7 @@
   "description": "Yahoo is hiring! Come help us build Yahoo on node!",
   "main": "index.js",
   "scripts": {
-    "postinstall": "node index.js; node status.js",
+    "postinstall": "node install.js",
     "test": "node status.js"
   },
   "repository": {
