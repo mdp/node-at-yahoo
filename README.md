@@ -1,3 +1,5 @@
+#Node At Yahoo
+
 ### Did you know that Yahoo is hiring Node.js developers in their SF office?
 
 We're already using Node.js in production across a variety of high traffic sites. The new My Yahoo,
@@ -14,12 +16,41 @@ Want to write server side or client side JS for more than 800 million monthly us
 
 Send me an email - mdp@yahoo-inc.com
 
-### Bitcoin challenges
+## Bitcoin challenges
 
-While you're busy installing useless npm modules, you might as
-well earn some money.
+While you're busy viewing the README of a recruiting pitch disguised as
+an npm module, you might as well earn some money. Most of these problems
+will be fairly easy in order to encourage Node.js/Javascript beginners to compete.
 
-I'll keep updating these with minor version bumps to the module. Solve a challenge
-and claim your Satoshi's!
+### Get started
 
-Run `npm test` to see if the challenge bounty has been collected
+    git clone https://github.com/mdp/node-at-yahoo.git
+    cd node-at-yahoo
+    npm install
+    npm test # To see if the current challenge has been solved
+
+### Solve a challenge
+
+When you attempt to solve a challenge, your proposed solution will be tested
+against a SHA256 hash of the actual solution. If they match, your solution will
+then be HMAC'd with a key to create the Bitcoin Brainwallet passphrase. You can
+then transfer the Bitcoins to your account.
+
+In order to test a solution, require the challenge module, and call 'willItSpend'
+with your solution as the argument. Example:
+
+    challenge = require('./lib/challenge1');
+    challenge.willItSpend(wrong_str) // Returns false
+    challenge.willItSpend(correct_str) // Returns the HMAC based Brainwallet passphrase
+
+### Redeem the Bitcoin Bounty
+
+1. Visit http://brainwallet.org
+1. Use the "Generator" method to build the Private Key with the passphrase from the challenge.
+1. Copy the Private Key
+1. Go to the "Transactions" tab and enter the Private Key into the obvious field.
+1. Enter your Bitcoin address as the destination.
+1. Click "Send Transaction"
+
+*If you're on an unsecure connection or extra paranoid about losing 20 bucks,
+you may want to download Brainwallet's github repo and run it locally.*
